@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://kodex.lk/sitemap.xml
+
+# Block common crawler junk
+Disallow: /uploads/*.svg$
